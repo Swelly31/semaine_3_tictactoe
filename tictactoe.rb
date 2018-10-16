@@ -1,9 +1,11 @@
+require "pry"
+
 # définition du BOARD
 
 grille = ["","","","","","","","",""]  #grille vide
 valeurs = ["1","2","3","4","5","6","7","8","9"] # grille avec les 9 données
 
-# on part du principe que le jeu est en cours avec zéro victoire, soit win = 0
+# on part du principe que le jeu démarre avec zéro victoire, soit win = 0
 win=0
 
 
